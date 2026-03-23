@@ -69,48 +69,46 @@ Thank you for your interest in contributing! 🎉
 
    Before submitting a PR:
 
-   1. Test with --action check (read-only)
-   2. Test with --action renew --dry-run
-   3. If possible, test against a lab ISE environment
-   4. Verify all three DNS providers still work (if modifying DNS code)
-   5. Verify both shared and per-node modes
+   * Test with --action check (read-only)
+   * Test with --action renew --dry-run
+   * If possible, test against a lab ISE environment
+   * Verify all three DNS providers still work (if modifying DNS code)
+   * Verify both shared and per-node modes
 
    Development Setup
 
-bash
-Copy Code
-# Clone and setup
-git clone https://github.com/yourusername/ise-acme-automation.git
-cd ise-acme-automation
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+   ```bash
+   # Clone and setup
+   git clone https://github.com/yourusername/ise-acme-automation.git
+   cd ise-acme-automation
+   python -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
 
-# Run checks
-python -m py_compile ise_acme_automation.py
-python ise_acme_automation.py --help
+   # Run checks
+   python -m py_compile ise_acme_automation.py
+   python ise_acme_automation.py --help
+   ```
 
-Areas We'd Love Help With
+8. Areas We'd Love Help With
 
-Additional DNS providers (GoDaddy, DigitalOcean, Namecheap)
-HashiCorp Vault integration
-Slack / Microsoft Teams notifications
-Prometheus metrics
-Unit tests and integration tests
-Certificate backup and rollback
-Parallel node processing
-Ansible playbook alternative
-Terraform module
-Web dashboard
+   Additional DNS providers (GoDaddy, DigitalOcean, Namecheap)
+   HashiCorp Vault integration
+   Slack / Microsoft Teams notifications
+   Prometheus metrics
+   Unit tests and integration tests
+   Certificate backup and rollback
+   Parallel node processing
+   Ansible playbook alternative
+   Terraform module
+   Web dashboard
 
-Code of Conduct
+9. Code of Conduct
 
-Be kind, respectful, and constructive. We're all here to build something useful together.
+   Be kind, respectful, and constructive. We're all here to build something useful together.
 
-
-Questions?
-
-Open a Discussion or reach out via Issues.
-
+10. Questions?
+    
+   Open a Discussion or reach out via Issues.
 
 Thank you! 🙏
