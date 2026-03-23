@@ -59,9 +59,9 @@ Thank you for your interest in contributing! 🎉
 
    Code Style
 
-   * Follow PEP 8 for Python code
-   * Use type hints where practical
-   * Add docstrings to all classes and public methods
+   * Follow **PEP 8** for Python code
+   * Use **type hints** where practical
+   * Add **docstrings** to all classes and public methods
    * Keep functions focused and under 50 lines where possible
    * Add logging for key operations
 
