@@ -16,7 +16,7 @@ Thank you for your interest in contributing! 🎉
 
 ### Suggesting Features
 
-1. Open a [Feature Request](https://github.com/yourusername/ise-acme-automation/issues/new?template=feature_request.md)
+1. Open a [Feature Request](https://github.com/rlienard/ise-acme-automation/issues/new?template=feature_request.md)
 2. Describe the use case and expected behavior
 3. Include any relevant technical details
 
@@ -43,9 +43,11 @@ Thank you for your interest in contributing! 🎉
    ```
 7. **Open a Pull Request** against the main branch
    Commit Message Convention
+   
    We follow Conventional Commits:
 
    |Prefix      |   Usage                     |
+   |------------|-----------------------------|      
    |feat:       |	  New feature               |
    |fix:	       |   Bug fix                   |
    |docs:	    |   Documentation changes     |
