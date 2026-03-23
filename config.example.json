@@ -1,0 +1,62 @@
+{
+    "_comment": "ISE ACME Certificate Auto-Renewal Configuration",
+    "_instructions": "Copy this file to config.json and fill in your environment details",
+    "_documentation": "See README.md for full configuration reference",
+
+    "ise_host": "ise-pan.yourdomain.com",
+    "ise_username": "api-admin",
+    "ise_password": "CHANGE_ME",
+    "ise_ers_port": 9060,
+    "ise_open_api_port": 443,
+
+    "acme_directory_url": "https://acme.digicert.com/v2/acme/directory/",
+    "acme_kid": "CHANGE_ME_DIGICERT_KEY_ID",
+    "acme_hmac_key": "CHANGE_ME_DIGICERT_HMAC_KEY",
+
+    "common_name": "guest.yourdomain.com",
+    "san_names": [
+        "guest.yourdomain.com",
+        "portal.yourdomain.com"
+    ],
+    "key_type": "RSA_2048",
+    "portal_group_tag": "Default Portal Certificate Group",
+
+    "certificate_mode": "shared",
+    "primary_node": "ise-psn01.yourdomain.com",
+
+    "ise_nodes": [
+        {
+            "name": "ise-psn01.yourdomain.com",
+            "role": "PSN",
+            "enabled": true
+        },
+        {
+            "name": "ise-psn02.yourdomain.com",
+            "role": "PSN",
+            "enabled": true
+        }
+    ],
+
+    "renewal_threshold_days": 30,
+
+    "dns_provider": "cloudflare",
+
+    "cloudflare_api_token": "CHANGE_ME_CLOUDFLARE_TOKEN",
+    "cloudflare_zone_id": "CHANGE_ME_CLOUDFLARE_ZONE_ID",
+
+    "aws_hosted_zone_id": "CHANGE_ME_IF_USING_AWS",
+    "aws_region": "us-east-1",
+
+    "azure_subscription_id": "CHANGE_ME_IF_USING_AZURE",
+    "azure_resource_group": "CHANGE_ME_IF_USING_AZURE",
+    "azure_dns_zone_name": "CHANGE_ME_IF_USING_AZURE",
+
+    "smtp_server": "smtp.yourdomain.com",
+    "smtp_port": 587,
+    "smtp_username": "alerts@yourdomain.com",
+    "smtp_password": "CHANGE_ME_SMTP_PASSWORD",
+    "alert_recipients": [
+        "netadmin@yourdomain.com",
+        "secops@yourdomain.com"
+    ]
+}
