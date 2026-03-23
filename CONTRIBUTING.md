@@ -24,16 +24,18 @@ Thank you for your interest in contributing! 🎉
 
 1. **Fork** the repository
 2. **Clone** your fork:
+   ```bash
    git clone https://github.com/your-fork/ise-acme-automation.git
    cd ise-acme-automation
-3. **Create** a branch:
+   ```
+4. **Create** a branch:
    git checkout -b feature/your-amazing-feature
-4. **Make** your changes and test thoroughly
-5. **Commit** with a clear message:
+5. **Make** your changes and test thoroughly
+6. **Commit** with a clear message:
    git commit -m "feat: add support for GoDaddy DNS provider"
-6. **Push** to your fork:
+7. **Push** to your fork:
    git push origin feature/your-amazing-feature
-7. **Open** a Pull Request against the main branch
+8. **Open** a Pull Request against the main branch
    Commit Message Convention
    We follow Conventional Commits:
 
