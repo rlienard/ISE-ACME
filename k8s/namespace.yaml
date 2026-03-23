@@ -1,1 +1,7 @@
-
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: network-automation
+  labels:
+    app: ise-acme
+    purpose: certificate-management
